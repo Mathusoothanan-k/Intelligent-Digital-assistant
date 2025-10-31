@@ -23,12 +23,14 @@ IDA (Intelligent Digital Assistant) is a Python-based personal assistant that ut
 3. Run the `ida.py` script to start the IDA personal assistant.
 
 ## Requirements
+update pip before installation 
 The following libraries are required to run IDA:
 speechrecognition==3.8.1
 pyttsx3==2.90
 wikipedia==1.4.0
 pywhatkit==5.1
 pyjokes==0.6.0
+
 
 
 ## Usage
