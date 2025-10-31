@@ -37,12 +37,12 @@ def wishMe():
 
 
 def takeCommand():
-    req = sr.Recognizer()
+    r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
-        audio = req.listen(source)
+        audio = r.listen(source)
         try:
-            statement = req.recognize_google(audio,language='en-in')
+            statement = r.recognize_google(audio,language='en-in')
             print(f"user said:{statement}\n")
 
         except Exception as e:
@@ -54,7 +54,7 @@ def takeCommand():
 speak("Loading your personal assistant IDA")
 wishMe()
 
-
+# main function
 if __name__ == '__main__':
     while True:
         speak("Tell me how can I help you now?")
