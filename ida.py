@@ -22,7 +22,7 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-
+# wish me function to check hours
 def wishMe():
     hour = datetime.datetime.now().hour
     if hour>=0 and hour<12:
