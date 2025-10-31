@@ -17,7 +17,7 @@ engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
 
-
+#speak function
 def speak(text):
     engine.say(text)
     engine.runAndWait()
