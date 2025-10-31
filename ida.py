@@ -10,7 +10,7 @@ import time
 import subprocess
 import pywhatkit
 import pyjokes
-
+#printing statement 
 print('Loading your personal assistant - IDA')
 
 engine=pyttsx3.init('sapi5')
